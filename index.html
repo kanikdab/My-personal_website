@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" content="Daniil, Kabanov, resume, cv, Kanik, Dab, programming, frontend">
+    <meta name="description" content="This is Daniil Kabanov's resume site. Here you can find information about Daniil.">
+    <link rel="stylesheet" href="styles.css">
+    <link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet'>
+    <title>Daniil's Resume</title>
+</head>
+<body>
+    <header class="l-header">
+        <nav class="nav bd-grid">
+            <div class="nav_toggle" id="nav-toggle">
+                <i class="bx bx-menu"></i>
+            </div>
+            <div class="nav_menu" id="nav-menu">
+                <div class="nav_close" id="nav-close">
+                    <i class="bx bx-x"></i>
+                </div>
+
+                <ul class="nav_list">
+                    <li class="nav_item"><a href="#home" class="nav_link active">Home</a></li>
+                    <li class="nav_item"><a href="#about" class="nav_link">About</a></li>
+                    <li class="nav_item"><a href="#skills" class="nav_link">Skills</a></li>
+                    <li class="nav_item"><a href="#contact" class="nav_link">Contactme</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <main class="l_main">
+        <section class="home" id="home">
+            <div class="home_container bd-grid">
+                <div class="home_data">
+                    <div class="home_img">
+                        <img src="images/avatar (2).JPG" alt="">
+                    </div>
+                    <h1 class="home_title">Daniil Kabanov</h1>
+                    <span class="home_metier">Student(PSU)</span>
+                    <div class="home_social">
+                        <a href="https://t.me/kanikdab" class="home_social-link" target="_blank"><i class='bx bxl-telegram'></i></a>
+                        <a href="https://github.com/kanikdab" class="home_social-link"target="_blank"><i class='bx bxl-github' ></i></a>
+                        <a href="https://www.instagram.com/kanik_dab_/" class="home_social-link" target="_blank"><i class='bx bxl-instagram-alt'></i></a>
+                        <a href="https://vk.com/danikkabanov" class="home_social-link" target="_blank"><i class='bx bxl-vk'></i></a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        
+        <section class="about section" id="about">
+            <h2 class="section-title">About me</h2>
+
+            <div class="about_container bd-grid">
+                <div class="about_data">
+                    <p class="about_description">
+                        Hi, i am a student at Polotsk State University. I study at the Faculty of Information Technology. I study programming and want to actively develop in this area. 
+                    </p>
+                    <img src="images/img_about.JPG" alt="" class="about_img">
+                </div>
+                <div class="about_information">
+                    <h3 class="about_information-title">Information</h3>
+
+                    <div class="about_information-data">
+                        <i class='bx bx-user about_information-icon'></i>
+                        <span>Daniil Kabanov</span>
+                    </div>
+
+                    <div class="about_information-data">
+                        <i class='bx bx-phone about_information-icon'></i>
+                        <span>+375295980292</span>
+                    </div>
+
+                    <div class="about_information-data">
+                        <i class='bx bx-envelope about_information-icon'></i>
+                        <span>kkabanov.dd@gmail.com</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        
+        <section class="skills section" id="skills">
+            <h2 class="section-title">My skills</h2>
+            <div class="skills_container bd grid">
+                <div class="skills-content">
+                    <h3 class="skills_subtitle">Technikal skills</h3>
+                    
+                    <div class="skills_data">
+                        <span class="skills_name">Html</span>
+                        <span class="skills_number">70%</span>
+                        <span class="skills_bar skills_html"></span>
+                    </div>
+
+                    <div class="skills_data">
+                        <span class="skills_name">Css</span>
+                        <span class="skills_name">60%</span>
+                        <span class="skills_bar skills_css"></span>
+                    </div>
+
+                    <div class="skills_data">
+                        <span class="skills_name">Javascript</span>
+                        <span class="skills_number">40%</span>
+                        <span class="skills_bar skills_js"></span>
+                    </div>
+
+                    <div class="skills_data">
+                        <span class="skills_name">Python</span>
+                        <span class="skills_number">50%</span>
+                        <span class="skills_bar skills_py"></span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+        <section class="contact section" id="contact">
+            <h2 class="section-title">Contact me</h2>
+
+            <div class="contact_container bd-grid">
+                <form action="" class="contact_form">
+                    <div class="contact_inputs">
+                        <input type="text" placeholder="Name" class="contact_input">
+                        <input type="mail" placeholder="Email" class="contact_input">
+                    </div>
+
+                    <textarea name="" id="" cols="0" rows="10" placeholder="Message" class="contact_input"></textarea>
+
+                    <input type="submit" value="Send Message" class="contact_button">
+                </form>
+                <div>
+                    <div class="contact_info">
+                        <h3 class="contact_subtitle">Call me</h3>
+                        <span class="contact_text">+375295980292</span>
+                    </div>
+
+                    <div class="contact_info">
+                        <h3 class="contact_subtitle">E-mail</h3>
+                        <span class="contact_text">kkabanov.dd@gmail.com</span>
+                        <span class="contact_text">21it3.kabanov.d@pdu.by</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+    </main>
+
+
+    <footer class="footer section">
+        <div class="footer_container bd-grid">
+            <h1 class="footer_title">Daniil</h1>
+            <p class="footer_descroption">I am Daniil and this is my personal website.</p>
+        </div>
+    </footer>
+    
+
+
+
+
+
+<script src="main.js"></script>
+</body>
+</html>
