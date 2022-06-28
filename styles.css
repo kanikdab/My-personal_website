@@ -126,6 +126,16 @@ img{
     box-shadow: 0 2px 4px rgba(0,0,0,.1);
 }
 
+.l_main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.skills {
+    width: 80%;
+}
+
 .nav{
     height: var(--header-height);
     display: flex;
@@ -389,6 +399,7 @@ img{
     background-color: var(--first-color-darken);
     color: var(--first-color-lighten);
     text-align: center;
+    width: 100%;
 }
 
 .footer_title{
@@ -439,12 +450,16 @@ img{
 
     .footer{
         background: none;
+        padding-bottom: 0;
     }
 
     .footer_container{
         background-color: var(--first-color-darken);
         padding: 3rem 0;
         border-radius: .5rem;
+        width: 100%;
+        margin: 0;
+        border-radius: 0;
     }
 }
 
